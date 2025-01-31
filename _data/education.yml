@@ -1,11 +1,14 @@
-- name: University of Washington 
+- name: City University of Hong Kong
   description: >-
-    Ph. D in Computer Science, advised by <a href="https://smseitz.com">Steven M. Seitz</a> and
-    <a href="https://homes.cs.washington.edu/~ali/">Ali Farhadi</a>.<br />
-    Supported by Samsung Scholarship 2015-2020 ($50,000/year for 5 years)
-  dates: Fall 2015 - Spring 2022
+    Ph.D. in Environmental Engineering, advised by <a href="https://www.cityu.edu.hk/see/people/prof-zhiguo-yuan-am">Zhiguo Yuan</a>.
+  dates: Fall 2024 - Spring 2026
 
-- name: University of Illinois at Urbana-Champaign
+- name: Tongji University
   description: >-
-    B.S. in Computer Science, advised by <a href="https://dhoiem.cs.illinois.edu/">Derek Hoiem</a>.
-  dates: Fall 2009 - Spring 2013
+    D. Eng. in Environmental Engineering, advised by <a href="https://sese.tongji.edu.cn/szdw/zyjs/js/L/lzl.htm">Zhenliang Liao</a>
+  dates: Fall 2020 - Spring 2026
+
+- name: Tongji University
+  description: >-
+    B. Eng. in Environmental Engineering
+  dates: Fall 2016 - Spring 2020

@@ -1,6 +1,6 @@
-# keunhong.github.io
+# Zhiyu014.github.io
 
-- Feel free to borrow this template.
+- This website code is forked from [Keunhong Park](https://github.com/Keunhong/Keunhong.github.io)
 - Make sure to update all relevant fields in `_config.yml` and `_data`.
 
 # License

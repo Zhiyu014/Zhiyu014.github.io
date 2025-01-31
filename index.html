@@ -48,7 +48,7 @@ layout: null
 
         <div class="column">
           <h1 class="title">
-            <b>Hello, I'm {{ site.name }}</b>
+            <b>{{ site.name }}</b>
           </h1>
           <div class="content has-text-justified">
             {{ site.description | markdownify }}
@@ -64,14 +64,21 @@ layout: null
                 <span>Scholar</span>
               </a>
 
+              <a class="external-link button is-light"
+                href="https://www.researchgate.net/profile/{{ site.researchgate }}">
+                <span class="icon"><i class="ai ai-researchgate"></i></span>
+                <span>ResearchGate</span>
+              </a>
+
+              <a class="external-link button is-light"
+                href="https://www.linkedin.com/in/{{ site.linkedin }}">
+                <span class="icon"><i class="ai ai-linkedin"></i></span>
+                <span>LinkedIn</span>
+              </a>
+
               <a class="external-link button is-light" href="https://github.com/{{ site.github_username }}">
                 <span class="icon"><i class="fab fa-github"></i></span>
                 <span>Github</span>
-              </a>
-
-              <a class="external-link button is-light" href="https://twitter.com/{{ site.twitter_username }}">
-                <span class="icon"><i class="fab fa-twitter"></i></span>
-                <span>Twitter</span>
               </a>
             </div>
 
