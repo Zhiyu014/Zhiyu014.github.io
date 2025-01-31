@@ -2,7 +2,8 @@
   title: "Graph neural network-based surrogate modelling for real-time hydraulic prediction of urban drainage networks"
   venue: Water Research, 2024
   description: "Control-oriented real-time modelling of drainage flow routing with a spatio-temporal GNN model with physics-guided hydraulic regulations."
-  project_page: "https://doi.org/10.1016/j.watres.2024.122142"
+  full_text: "https://doi.org/10.1016/j.watres.2024.122142"
+  publisher: elsevier
   github: Zhiyu014/GNN-UDS
   image: gnn.jpg
   authors:
@@ -15,7 +16,8 @@
   title: "Towards coordinated and robust real-time control: a decentralized approach for combined sewer overflow and urban flooding reduction based on multi-agent reinforcement learning"
   venue: Water Research, 2023
   description: "Using multi-agent reinforcement learning to control multiple drainage valves and pumps with real-time communication fail-safe performance."
-  project_page: "https://doi.org/10.1016/j.watres.2022.119498"
+  full_text: "https://doi.org/10.1016/j.watres.2022.119498"
+  publisher: elsevier
   github: Zhiyu014/MARL-UDS
   image: reconfusion_before.png
   authors:
