@@ -48,7 +48,7 @@ layout: null
             {{ site.description | markdownify }}
           </div>
           <div class="buttons is-centered">
-            <a class="external-link button is-white is-medium" href="{{site.cv}}">
+            <a class="external-link button is-white is-medium" href="cv.html">
               <span class="icon"><i class="ai ai-cv"></i></span>
             </a>
             <a class="external-link button is-white is-medium" href="mailto:{{site.email}}">
@@ -62,6 +62,10 @@ layout: null
 
             <a class="external-link button is-white is-medium" href="https://github.com/{{ site.github_username }}">
               <span class="icon"><i class="fab fa-github"></i></span>
+            </a>
+
+            <a class="external-link" href="https://www.researchgate.net/profile/{{ site.researchgate }}">
+              <i class="ai ai-researchgate"></i>
             </a>
 
             <a class="external-link button is-white is-medium" href="https://www.linkedin.com/in/{{ site.linkedin }}">
@@ -126,11 +130,21 @@ layout: null
               {% assign author = site.data.authors[author_id] %}
               <span class="author-block {% if author.is_me %}author-me{% endif %}">
                 {% if author.is_me %}
-                {{ author.first_name }} {{author.middle_name}} {{ author.last_name }}{% if forloop.last == false %},{%
-                endif %}
+                {{ author.first_name }} {{author.middle_name}} {{ author.last_name }}
+                {% if publication.corr contains author_id %}
+                <a class="external-link button is-small" href="mailto:{{author.email}}">
+                  <span class="icon"><i class="fas fa-envelope"></i></span>
+                </a>
+                {%endif %}
+                {% if forloop.last == false %},{% endif %}
                 {% else %}
                 <a href="{{ author.website }}">{{ author.first_name }} {{ author.middle_name }} {{ author.last_name
-                  }}</a>{% if forloop.last == false %},{% endif %}
+                  }}</a>
+                  {% if publication.corr contains author_id %}
+                  <a class="external-link button is-small" href="mailto:{{author.email}}">
+                    <span class="icon"><i class="fas fa-envelope"></i></span>
+                  </a>
+                  {%endif %}{% if forloop.last == false %},{% endif %}
                 {% endif %}
               </span>
               {% endfor %}
@@ -144,22 +158,22 @@ layout: null
             <p class="publication-description">{{ publication.description }}</p>
             <!-- Publication Links. -->
             <div class="publication-links buttons field has-addons">
-              <a class="external-link button is-small is-ghost" href="{{ publication.full_text }}">
+              <a class="external-link button is-medium is-ghost" href="{{ publication.full_text }}">
                 <span class="icon"><i class="ai ai-{{ publication.publisher }}"></i></span>
                 <span>Full text</span>
               </a>
               {% if publication.arxiv %}
-              <a class="external-link button is-small is-ghost" href="https://arxiv.org/pdf/{{ publication.arxiv }}.pdf">
+              <a class="external-link button is-medium is-ghost" href="https://arxiv.org/pdf/{{ publication.arxiv }}.pdf">
                 <span class="icon"><i class="fas fa-file-pdf"></i></span>
                 <span>PDF</span>
               </a>
-              <a class="external-link button is-small is-ghost" href="https://arxiv.org/abs/{{ publication.arxiv }}">
+              <a class="external-link button is-medium is-ghost" href="https://arxiv.org/abs/{{ publication.arxiv }}">
                 <span class="icon"><i class="ai ai-arxiv"></i></span>
                 <span>arXiv</span>
               </a>
               {% endif %}
               {% if publication.github %}
-              <a class="external-link button is-small is-ghost" href="https://github.com/{{ publication.github }}">
+              <a class="external-link button is-medium is-ghost" href="https://github.com/{{ publication.github }}">
                 <span class="icon"><i class="fa fab fa-github"></i></span>
                 <span>Code</span>
               </a>
@@ -196,7 +210,7 @@ layout: null
         <div class="column is-8">
           <div class="content">
             <p>
-              This template is borrowed from <a href="https://github.com/keunhong/keunhong.github.io"></a>.
+              This template is borrowed from <a href="https://github.com/keunhong/keunhong.github.io">Keunhong Park</a> and <a href="https://github.com/henzler/henzler.github.io">Philipp Henzler</a>.
             </p>
           </div>
         </div>

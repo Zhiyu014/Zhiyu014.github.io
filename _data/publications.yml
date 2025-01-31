@@ -12,6 +12,9 @@
     - luchen
     - zhenliang
     - zhiguo
+  corr:
+    - zhenliang
+
 - id: marl
   title: "Towards coordinated and robust real-time control: a decentralized approach for combined sewer overflow and urban flooding reduction based on multi-agent reinforcement learning"
   venue: Water Research, 2023
@@ -19,8 +22,179 @@
   full_text: "https://doi.org/10.1016/j.watres.2022.119498"
   publisher: elsevier
   github: Zhiyu014/MARL-UDS
-  image: reconfusion_before.png
+  image: marl.png
   authors:
     - zhiyu
     - wenchong
     - zhenliang
+  corr:
+    - zhenliang
+
+- id: comparison
+  title: "Comparison of Real-time Control Methods for CSO Reduction with Two Evaluation Indices: Computing Load Rate and Double Baseline Normalized Distance"
+  venue: Water Resources Management, 2022
+  description: "Compare rule-based control, model predictive control, and reinforcement learning control in computing load and normalized performance."
+  full_text: "https://doi.org/10.1007/s11269-022-03221-1"
+  publisher: springer
+  image: saferl.jpg
+  authors:
+    - zhenliang
+    - zhiyu
+    - wenchong
+    - xianyong
+    - jiaqiang
+  corr:
+    - wenchong
+
+- id: floodassess
+  title: "An integrated assessment of urban flooding risk and resilience based on spatial grids"
+  venue: Urban Water Journal, 2025
+  description: "Assess both risk and resilience with 1D2D modelling and threshold classifications."
+  full_text: "https://doi.org/10.1080/1573062X.2024.2443895"
+  publisher: taylorfrancis
+  image: floodassess.jpg
+  authors:
+    - zhenliang
+    - xinyu
+    - wenchong
+    - zhiyu
+    - huijuan
+    - wanying
+  corr:
+    - zhiyu
+
+- id: contamdetect
+  title: "A 'Prediction - Detection - Judgment' framework for sudden water contamination event detection with online monitoring"
+  venue: Journal of Enviornmental Management, 2024
+  description: "Detect contamination timely and accurately from monitoring data considering water quality baseline and possible anomalies."
+  full_text: "https://doi.org/10.1016/j.jenvman.2024.120496"
+  publisher: elsevier
+  image: contamdetect.jpg
+  authors:
+    - zhenliang
+    - minhao
+    - chenyun
+    - zhiyu
+    - huijuan
+  corr:
+    - zhenliang
+    - zhiyu
+
+- id: sourceidwds
+  title: "Source identification of water distribution system contamination based on simulated annealing-particle swarm optimization algorithm"
+  venue:  Environmental Monitoring and Assessment, 2024
+  description: "Avoid local optima problem and ensure effcient locatilization of contaminated sources in WDS combining SA and PSO."
+  full_text: "https://doi.org/10.1007/s10661-024-13382-8"
+  publisher: springer
+  image: sourceidwds.jpg
+  authors:
+    - zhenliang
+    - xingyang
+    - yangting
+    - zhiyu
+  corr:
+    - zhiyu
+
+- id: interpret
+  title: "Improving the interpretability of deep reinforcement learning in urban drainage system operation"
+  venue: Water Research, 2024
+  description: "Interpret the learned control policy of DRL with Sobol, tree-based logics, and conditional distributions."
+  full_text: "https://doi.org/10.1016/j.watres.2023.120912"
+  publisher: elsevier
+  github: DantEzio/Interpretable-DRL-for-UDS
+  image: interpret.jpg
+  authors:
+    - wenchong
+    - guangtao
+    - kunlun
+    - zhiyu
+    - zhenliang
+  corr:
+    - kunlun
+
+- id: koopman
+  title: "Flooding and overflow mitigation using deep reinforcement learning based on Koopman operator of urban drainage systems"
+  venue: Water Resources Research, 2022
+  description: "Training a Koopman emulator of urban drainage dynamis for reinforcement learning control."
+  full_text: "https://doi.org/10.1029/2021WR030939"
+  publisher: wiley
+  github: DantEzio/Koopman-Emulator-RL
+  image: marl.png
+  authors:
+    - wenchong
+    - zhenliang
+    - zhiyu
+    - wuhao
+    - kunlun
+  corr:
+    - zhenliang
+
+- id: rlvoting
+  title: "Combined Sewer Overflow and Flooding Mitigation Through a Reliable Real-Time Control Based on Multi-Reinforcement Learning and Model Predictive Control"
+  venue: Water Resources Research, 2022
+  description: "RL agents' decisions are action votes and further evaluated in real time to improve reliability and safety."
+  full_text: "https://doi.org/10.1029/2021WR030703"
+  publisher: wiley
+  github: DantEzio/Multi-RL-Voting
+  image: rlvoting.jpg
+  authors:
+    - wenchong
+    - zhenliang
+    - guozheng
+    - zhiyu
+    - wangxuan
+  corr:
+    - zhenliang
+
+- id: saferl
+  title: "Flooding mitigation through safe & trustworthy reinforcement learning"
+  venue: Journal of Hydrology, 2023
+  description: "Safe learning control of urban drainage systems with a robust reward function."
+  full_text: "https://doi.org/10.1016/j.jhydrol.2023.129435"
+  publisher: elsevier
+  github: DantEzio/safe-RL-in-UDS
+  image: saferl.jpg
+  authors:
+    - wenchong
+    - kunlun
+    - zhiyu
+    - muhan
+    - zhenliang
+    - taotao
+  corr:
+    - kunlun
+
+- id: lake
+  title: "Enhancing interpretability and generalizability of deep learning-based emulator in three-dimensional lake hydrodynamics using Koopman operator and transfer learning: Demonstrated on the example of lake Zurich"
+  venue: Water Research, 2024
+  description: "Learning a 3D hydrodynamic lake model from monitoring data using Koopman operator and transfer learning."
+  full_text: "https://doi.org/10.1016/j.watres.2023.120996"
+  publisher: elsevier
+  image: lake.jpg
+  authors:
+    - wenchong
+    - zhiyu
+    - damien
+    - wuhao
+    - kunlun
+    - xianyong
+    - zhenliang
+  corr:
+    - zhenliang
+
+- id: attenwaterquality
+  title: "The Use of Attention-Enhanced CNN-LSTM Models for Multi-Indicator and Time-Series Predictions of Surface Water Quality"
+  venue: Water Resources Management, 2024
+  description: "Use spatial and temporal attention mechanisms to enhance CNN-LSTM models for predicting surface water quality."
+  full_text: "https://doi.org/10.1007/s11269-024-03946-1"
+  publisher: springer
+  image: attenwaterquality.jpg
+  authors:
+    - minhao
+    - zhiyu
+    - wangxuan
+    - zhenliang
+    - lijin
+  corr:
+    - zhenliang
+    - lijin

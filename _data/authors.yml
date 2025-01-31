@@ -1,20 +1,80 @@
 zhiyu:
   first_name: Zhiyu
   last_name: Zhang
-  website: https://keunhong.com
+  website: https://zhiyu014.github.io
+  email: jonathan-yu@tongji.edu.cn
   is_me: true
 zhiguo:
   first_name: Zhiguo
   last_name: Yuan
   website: https://www.cityu.edu.hk/see/people/prof-zhiguo-yuan-am
+  email: zhigyuan@cityu.edu.hk
 zhenliang:
   first_name: Zhenliang
   last_name: Liao
   website: https://sese.tongji.edu.cn/szdw/zyjs/js/L/lzl.htm
+  email: zl_liao@tongji.edu.cn
 wenchong:
   first_name: Wenchong
   last_name: Tian
+  website: https://www.researchgate.net/profile/Wenchong-Tian-2
+  email: Wenchong.T@cityu.edu.hk
 luchen:
   first_name: Chenkaixiang
   last_name: Lu
-
+wuhao:
+  first_name: Hao
+  last_name: Wu
+kunlun:
+  first_name: Kunlun
+  last_name: Xin
+  email: xkl@tongji.edu.cn
+guozheng:
+  first_name: Guozheng
+  last_name: Zhi
+wangxuan:
+  first_name: Xuan
+  last_name: Wang
+guangtao:
+  first_name: Guangtao
+  last_name: Fu
+muhan:
+  first_name: Muhan
+  last_name: Zhao
+taotao:
+  first_name: Tao
+  last_name: Tao
+xianyong:
+  first_name: Xianyong
+  last_name: Gu
+jiaqiang:
+  first_name: Jiaqiang
+  last_name: Xie
+minhao:
+  first_name: Minhao
+  last_name: Zhang
+chenyun:
+  first_name: Yun
+  last_name: Chen
+huijuan:
+  first_name: Huijuan
+  last_name: Wang
+lijin:
+  first_name: Lijin
+  last_name: Wang
+  email: lsxywlj@126.com
+damien:
+  first_name: Damien
+  last_name: Bouffard
+xinyu:
+  first_name: Xinyu
+  last_name: He
+wanying:
+  first_name: Wanying
+  last_name: Xie
+xingyang:
+  first_name: Xingyang
+  last_name: Shi
+yangting:
+  first_name: Yangting
+  last_name: Liao
