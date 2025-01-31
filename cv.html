@@ -118,7 +118,7 @@ layout: null
                 {{ author.first_name | slice: 0 }}. {{ author.last_name }}
                 {% if publication.corr contains author_id %}
                 <a class="external-link button is-small" href="mailto:{{author.email}}">
-                  <span class="icon"><i class="fas fa-envelope"></i></span>
+                  <i class="fas fa-envelope"></i>
                 </a>
                 {%endif %}{% if forloop.last == false %},{%
                 endif %}
@@ -126,7 +126,7 @@ layout: null
                 <a href="{{ author.website }}">{{ author.first_name | slice: 0 }}. {{ author.last_name }}</a>
                 {% if publication.corr contains author_id %}
                 <a class="external-link button is-small" href="mailto:{{author.email}}">
-                  <span class="icon"><i class="fas fa-envelope"></i></span>
+                  <i class="fas fa-envelope"></i>
                 </a>
                 {%endif %}{% if
                 forloop.last == false %},{% endif %}

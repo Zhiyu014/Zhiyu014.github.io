@@ -22,7 +22,7 @@
   full_text: "https://doi.org/10.1016/j.watres.2022.119498"
   publisher: elsevier
   github: Zhiyu014/MARL-UDS
-  image: marl.png
+  image: marl.jpg
   authors:
     - zhiyu
     - wenchong
@@ -51,7 +51,7 @@
   venue: Urban Water Journal, 2025
   description: "Assess both risk and resilience with 1D2D modelling and threshold classifications."
   full_text: "https://doi.org/10.1080/1573062X.2024.2443895"
-  publisher: taylorfrancis
+  publisher: doi
   image: floodassess.jpg
   authors:
     - zhenliang
