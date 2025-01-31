@@ -60,12 +60,6 @@ layout: null
             </a>
           </p>
           <p>
-            <a href="https://twitter.com/{{ site.twitter_username }}">
-              <i class="fab fa-twitter"></i>
-              {{ site.twitter_username }}
-            </a>
-          </p>
-          <p>
             <a href="mailto:{{ site.email }}">
               <i class="fas fa-envelope"></i>
               {{ site.email }}
@@ -117,7 +111,7 @@ layout: null
                 {% if author.is_me %}
                 {{ author.first_name | slice: 0 }}. {{ author.last_name }}
                 {% if publication.corr contains author_id %}
-                <a class="external-link button is-small" href="mailto:{{author.email}}">
+                <a class="external-link is-small" href="mailto:{{author.email}}">
                   <i class="fas fa-envelope"></i>
                 </a>
                 {%endif %}{% if forloop.last == false %},{%
@@ -125,7 +119,7 @@ layout: null
                 {% else %}
                 <a href="{{ author.website }}">{{ author.first_name | slice: 0 }}. {{ author.last_name }}</a>
                 {% if publication.corr contains author_id %}
-                <a class="external-link button is-small" href="mailto:{{author.email}}">
+                <a class="external-link is-small" href="mailto:{{author.email}}">
                   <i class="fas fa-envelope"></i>
                 </a>
                 {%endif %}{% if

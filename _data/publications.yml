@@ -52,6 +52,7 @@
   description: "Assess both risk and resilience with 1D2D modelling and threshold classifications."
   full_text: "https://doi.org/10.1080/1573062X.2024.2443895"
   publisher: doi
+  github: HooXinyu/Res_repository
   image: floodassess.jpg
   authors:
     - zhenliang
@@ -119,7 +120,7 @@
   full_text: "https://doi.org/10.1029/2021WR030939"
   publisher: wiley
   github: DantEzio/Koopman-Emulator-RL
-  image: marl.png
+  image: koopman.jpg
   authors:
     - wenchong
     - zhenliang
