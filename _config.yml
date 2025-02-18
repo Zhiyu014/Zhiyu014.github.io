@@ -26,10 +26,11 @@ description: >-
   I am a joint PhD student in Environmental Engineering at City University of Hong Kong and Tongji University, 
   supervised by Prof. [Zhiguo Yuan](https://www.cityu.edu.hk/see/people/prof-zhiguo-yuan-am) @CityUHK 
   and Prof. [Zhenliang Liao](https://sese.tongji.edu.cn/szdw/zyjs/js/L/lzl.htm) @Tongji.
+  I'm currently a member of the [Smart Water and EnviroBiotech Team (SWEB)](https://sweb.cityu.edu.hk) at CityUHK.
   I received my B.Eng. in Environmental Engineering from Tongji University in 2020.
 
-  I currently work on smart urban water systems, 
-  specifically in modelling and real-time control of urban drainage networks with learning-based methods.
+  My research interests lie on smart urban drainage networks, 
+  specifically in modelling and real-time control with learning-based methods.
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://Zhiyu014.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -37,6 +38,7 @@ github_username: Zhiyu014
 google_scholar: J7KycVcAAAAJ
 google_analytics: G-PNKCM60VN9
 researchgate: Zhiyu-Zhang-42
+orcid: 0000-0001-6898-2176
 linkedin: zhiyu-zhang-2a3726305
 
 # Build settings

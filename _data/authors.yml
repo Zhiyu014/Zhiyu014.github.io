@@ -78,3 +78,28 @@ xingyang:
 yangting:
   first_name: Yangting
   last_name: Liao
+yuqi:
+  first_name: Yu-Qi
+  last_name: Wang
+hongcheng:
+  first_name: Hong-Cheng
+  last_name: Wang
+  email: https://pubs.acs.org/doi/10.1021/acsestwater.4c00881
+jiaji:
+  first_name: Jia-Ji
+  last_name: Chen
+wanxin:
+  first_name: Wan-Xin
+  last_name: Yin
+jiuling:
+  first_name: Jiuling
+  last_name: Li
+hewen:
+  first_name: He-Wen
+  last_name: Li
+meifang:
+  first_name: Mei-Fang
+  last_name: Wang
+aijie:
+  first_name: Ai-Jie
+  last_name: Wang

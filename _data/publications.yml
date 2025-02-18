@@ -199,3 +199,23 @@
   corr:
     - zhenliang
     - lijin
+    
+- id: transformerpunish
+  title: "Transformer Networks and Loss with Punishment for Optimized Management of Urban Water Supply System"
+  venue: ACS ES&T Water, 2025
+  description: "Use transformer networks and loss with punishment to optimize management of urban water supply system."
+  full_text: "https://pubs.acs.org/doi/10.1021/acsestwater.4c00881"
+  publisher: acs
+  image: transformerpunish.jpg
+  authors:
+    - yuqi
+    - hongcheng
+    - jiaji
+    - wanxin
+    - jiuling
+    - zhiyu
+    - hewen
+    - meifang
+    - aijie
+  corr:
+    - hongcheng
