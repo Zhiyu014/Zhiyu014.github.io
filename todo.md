@@ -1,0 +1,14 @@
+# TODO lists
+- [ ] click pic to check in full
+- [ ] add ACS icon
+- [ ] add TaylorFrancis icon
+- [ ] Sort by function
+    - [ ] By date
+    - [ ] By authorship
+    - [ ] Pinned research
+- [ ] add cite button
+    - [ ] export to bibtex
+    - [ ] export to ris
+    - [ ] copy reference
+- [ ] prepare pdf cv ch/eng version
+- [ ] add cv.pdf link to cv.html
