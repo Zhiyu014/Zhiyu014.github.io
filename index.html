@@ -96,38 +96,6 @@ layout: null
     </div>
   </div>
 
-  <script>
-    function showImageModal(imgSrc) {
-      const modal = document.getElementById('image-modal');
-      const expandedImg = document.getElementById('expanded-img');
-      expandedImg.src = imgSrc;
-      modal.style.display = 'block';
-    }
-    
-    // Close modal functionality
-    document.querySelector('.modal-close').onclick = function() {
-      document.getElementById('image-modal').style.display = 'none';
-    }
-    
-    window.onclick = function(event) {
-      if (event.target.className === 'image-modal') {
-        document.getElementById('image-modal').style.display = 'none';
-      }
-    }
-    
-    document.onkeydown = function(evt) {
-      evt = evt || window.event;
-      if (evt.key === 'Escape') {
-        document.getElementById('image-modal').style.display = 'none';
-      }
-    };
-    </script>
-          
-  <div id="image-modal" class="image-modal">
-    <span class="modal-close">&times;</span>
-    <img class="modal-content" id="expanded-img">
-  </div>
-        
   <section class="section">
     <div class="container is-max-desktop">
 
@@ -148,10 +116,10 @@ layout: null
       <div class="publication-block columns">
 
         <div class="column is-2">
-          <div class="publication-image"
-               onclick="showImageModal('./images/{{ publication.image }}')"
-               onmouseenter="showImageModal('./images/{{ publication.image }}')">
-            <img class="thumbnail" alt="{{ publication.title }}" src="./images/{{ publication.image }}" />
+          <div class="publication-image">
+            <a href="./images/{{ publication.image }}" target="_blank" rel="noopener noreferrer">
+              <img class="thumbnail" alt="{{ publication.title }}" src="./images/{{ publication.image }}" />
+            </a>
           </div>
         </div>
 
