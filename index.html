@@ -96,6 +96,47 @@ layout: null
     </div>
   </div>
 
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const modal = document.querySelector('.image-modal');
+      const enlargedImg = document.querySelector('.enlarged-image');
+      const thumbnails = document.querySelectorAll('.thumbnail');
+
+      // 打开模态窗口
+      thumbnails.forEach(thumbnail => {
+        thumbnail.addEventListener('click', (e) => {
+          e.preventDefault();
+          enlargedImg.src = thumbnail.dataset.fullsize;
+          modal.classList.add('active');
+        });
+      });
+
+      // 关闭模态窗口
+      function closeModal() {
+        modal.classList.remove('active');
+        enlargedImg.src = '';
+      }
+
+      // 点击背景关闭
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) closeModal();
+      });
+
+      // ESC 键关闭
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') closeModal();
+      });
+
+      // 窗口调整时重置图片位置
+      window.addEventListener('resize', () => {
+        if (modal.classList.contains('active')) {
+          modal.classList.remove('active');
+          setTimeout(() => modal.classList.add('active'), 10);
+        }
+      });
+    });
+  </script>
+
   <section class="section">
     <div class="container is-max-desktop">
 
@@ -117,9 +158,16 @@ layout: null
 
         <div class="column is-2">
           <div class="publication-image">
-            <a href="./images/{{ publication.image }}" target="_blank" rel="noopener noreferrer">
-              <img class="thumbnail" alt="{{ publication.title }}" src="./images/{{ publication.image }}" />
-            </a>
+            <img class="thumbnail"
+                 alt="{{ publication.title }}" 
+                 src="./images/{{ publication.image }}"
+                 data-fullsize="./images/{{ publication.image }}">
+          </div>
+        </div>
+
+        <div class="image-modal">
+          <div class="modal-content">
+            <img src="" alt="Enlarged view" class="enlarged-image">
           </div>
         </div>
 
