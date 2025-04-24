@@ -102,6 +102,7 @@
   description: "Use the derivative of UDS resilience indicator to train a deep reinforcement learning agent."
   full_text: "https://doi.org/10.1016/j.watres.2025.123681"
   publisher: elsevier
+  github: DantEzio/DRL_GR_UDS
   image: rlres.jpg
   authors:
     - wenchong
