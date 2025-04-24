@@ -96,6 +96,23 @@
   corr:
     - zhiyu
 
+- id: rlres
+  title: "Enhancing the resilience of urban drainage system using deep reinforcement learning"
+  venue: Water Research, 2025
+  description: "Use the derivative of UDS resilience indicator to train a deep reinforcement learning agent."
+  full_text: "https://doi.org/10.1016/j.watres.2025.123681"
+  publisher: elsevier
+  image: rlres.jpg
+  authors:
+    - wenchong
+    - zhiyu
+    - kunlun
+    - zhenliang
+    - zhiguo
+  corr:
+    - zhenliang
+    - zhiguo
+
 - id: interpret
   title: "Improving the interpretability of deep reinforcement learning in urban drainage system operation"
   venue: Water Research, 2024
