@@ -22,6 +22,17 @@ $transition-duration: 0.3s;
     color: #000;
 }
 
+.chinese-resume-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85em; /* 适当调整字体大小 */
+  font-weight: 600;  /* 加粗显示 */
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; /* 使用系统字体 */
+  width: 1.5em;      /* 保持与图标相同的宽度 */
+  height: 1.5em;     /* 保持与图标相同的高度 */
+}
+
 .publication-block {
     .publication-title {
         width: fit-content;
