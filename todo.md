@@ -6,5 +6,6 @@
     - [ ] By date
     - [ ] By authorship
     - [ ] Pinned research
-- [ ] prepare pdf cv ch/eng version
-- [ ] add cv.pdf link to cv.html
+- [x] prepare pdf cv ch/eng version
+- [x] add cv.pdf link to cv.html
+- [ ] add preprint or accepted paper pdfs
