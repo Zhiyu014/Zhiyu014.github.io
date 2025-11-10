@@ -182,7 +182,6 @@ layout: null
               {% for author_id in publication.authors %}
               {% assign author = site.data.authors[author_id] %}
               <span class="author-block {% if author.is_me %}author-me{% endif %}">
-                {% if author.is_me %}
                 {{ author.first_name }} {{author.middle_name}} {{ author.last_name }}
                 {% if publication.corr contains author_id %}
                 <a class="external-link is-small" href="mailto:{{author.email}}">
@@ -190,15 +189,6 @@ layout: null
                 </a>
                 {%endif %}
                 {% if forloop.last == false %},{% endif %}
-                {% else %}
-                <a href="{{ author.website }}">{{ author.first_name }} {{ author.middle_name }} {{ author.last_name
-                  }}</a>
-                  {% if publication.corr contains author_id %}
-                  <a class="external-link is-small" href="mailto:{{author.email}}">
-                    <i class="fas fa-envelope"></i>
-                  </a>
-                  {%endif %}{% if forloop.last == false %},{% endif %}
-                {% endif %}
               </span>
               {% endfor %}
             </div>

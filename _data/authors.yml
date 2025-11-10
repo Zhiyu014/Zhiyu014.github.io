@@ -2,7 +2,7 @@ zhiyu:
   first_name: Zhiyu
   last_name: Zhang
   website: https://zhiyu014.github.io
-  email: jonathan-yu@tongji.edu.cn
+  email: zhang.zhiyu@my.cityu.edu.hk
   is_me: true
 zhiguo:
   first_name: Zhiguo
@@ -28,7 +28,7 @@ wuhao:
 kunlun:
   first_name: Kunlun
   last_name: Xin
-  email: xkl@tongji.edu.cn
+  website: https://sese.tongji.edu.cn/szdw/zyjs/js/X/xkl.htm
 guozheng:
   first_name: Guozheng
   last_name: Zhi
@@ -44,6 +44,7 @@ muhan:
 taotao:
   first_name: Tao
   last_name: Tao
+  website: https://sese.tongji.edu.cn/szdw/zyjs/js/T/tt.htm
 xianyong:
   first_name: Xianyong
   last_name: Gu
@@ -62,7 +63,6 @@ huijuan:
 lijin:
   first_name: Lijin
   last_name: Wang
-  email: lsxywlj@126.com
 damien:
   first_name: Damien
   last_name: Bouffard
@@ -84,7 +84,6 @@ yuqi:
 hongcheng:
   first_name: Hong-Cheng
   last_name: Wang
-  email: https://pubs.acs.org/doi/10.1021/acsestwater.4c00881
 jiaji:
   first_name: Jia-Ji
   last_name: Chen
@@ -103,3 +102,7 @@ meifang:
 aijie:
   first_name: Ai-Jie
   last_name: Wang
+hexiang:
+  first_name: Hexiang
+  last_name: Yan
+  website: https://sese.tongji.edu.cn/szdw/zyjs/fjs_fyjy_/Y/yhx.htm

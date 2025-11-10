@@ -96,6 +96,27 @@
   corr:
     - zhiyu
 
+- id: knowrl
+  title: "A knowledge-data fusion framework accelerates deep reinforcement learning for real-time control of urban drainage systems"
+  venue: Water Research, 2026
+  description: "Pretrain RL agent for RTC with knowledge-carrying data from engineering experiences and strategies."
+  full_text: "https://doi.org/10.1016/j.watres.2025.124901"
+  publisher: elsevier
+  github: DantEzio/Knowledge-Guided_UDS_DRL
+  image: knowrl.jpg
+  authors:
+    - wenchong
+    - zhiyu
+    - wangxuan
+    - hexiang
+    - zhenliang
+    - kunlun
+    - taotao
+    - zhiguo
+  corr:
+    - wenchong
+    - zhiguo
+
 - id: rlres
   title: "Enhancing the resilience of urban drainage system using deep reinforcement learning"
   venue: Water Research, 2025
