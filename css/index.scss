@@ -152,21 +152,6 @@ $transition-duration: 0.3s;
         padding: 0.75rem;
         margin-bottom: 0.75rem;
         box-shadow: 0 2px 6px rgba(0,0,0,0.04);
-
-        /* enlarge image to visually match highlighted block */
-        .publication-image {
-            /* keep image inside the highlighted block */
-            margin-left: 0;
-            overflow: hidden;
-
-            .thumbnail {
-                width: 120%;
-                max-width: 140px; /* keeps image from overflowing */
-                height: auto;
-                display: block;
-                object-fit: cover;
-                margin: 0;
-            }
         }
     }
 }
