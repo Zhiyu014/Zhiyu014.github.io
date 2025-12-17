@@ -1,7 +1,7 @@
 - id: diffmpc
   title: "Differentiable neural network-based models enable gradient-based optimization for model predictive control of urban drainage networks"
   venue: Water Research, 2026
-  description: "Control-oriented real-time modelling of drainage flow routing with a spatio-temporal GNN model with physics-guided hydraulic regulations."
+  description: "Derives the gradients of the MPC objective function (output) to the control action (input) along the neural network for a L-BFGS-B optimizer."
   full_text: "https://doi.org/10.1016/j.watres.2025.125188"
   publisher: elsevier
   github: Zhiyu014/GNN-UDS/tree/torch
