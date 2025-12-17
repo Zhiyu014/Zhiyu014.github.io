@@ -145,4 +145,12 @@ $transition-duration: 0.3s;
         margin: 0 !important;
         margin-top: 0.5em !important;
     }
+
+    &.publication-highlight {
+        background: #fff8dc; /* subtle highlight (cornsilk) */
+        border-radius: 8px;
+        padding: 0.75rem;
+        margin-bottom: 0.75rem;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+    }
 }

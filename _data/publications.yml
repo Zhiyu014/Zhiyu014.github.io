@@ -1,3 +1,21 @@
+- id: diffmpc
+  title: "Differentiable neural network-based models enable gradient-based optimization for model predictive control of urban drainage networks"
+  venue: Water Research, 2026
+  description: "Control-oriented real-time modelling of drainage flow routing with a spatio-temporal GNN model with physics-guided hydraulic regulations."
+  full_text: "https://doi.org/10.1016/j.watres.2025.125188"
+  publisher: elsevier
+  github: Zhiyu014/GNN-UDS/tree/torch
+  image: diffmpc.jpg
+  authors:
+    - zhiyu
+    - wenchong
+    - zhenliang
+    - zhiguo
+  corr:
+    - zhenliang
+    - zhiguo
+  highlight: true
+
 - id: gnnudn
   title: "Graph neural network-based surrogate modelling for real-time hydraulic prediction of urban drainage networks"
   venue: Water Research, 2024
@@ -14,6 +32,7 @@
     - zhiguo
   corr:
     - zhenliang
+  highlight: true
 
 - id: marl
   title: "Towards coordinated and robust real-time control: a decentralized approach for combined sewer overflow and urban flooding reduction based on multi-agent reinforcement learning"
@@ -29,6 +48,7 @@
     - zhenliang
   corr:
     - zhenliang
+  highlight: true
 
 - id: comparison
   title: "Comparison of Real-time Control Methods for CSO Reduction with Two Evaluation Indices: Computing Load Rate and Double Baseline Normalized Distance"
