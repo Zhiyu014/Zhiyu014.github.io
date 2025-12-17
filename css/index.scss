@@ -155,14 +155,17 @@ $transition-duration: 0.3s;
 
         /* enlarge image to visually match highlighted block */
         .publication-image {
-            margin-left: -6%;
+            /* keep image inside the highlighted block */
+            margin-left: 0;
+            overflow: hidden;
 
             .thumbnail {
                 width: 100%;
+                max-width: 140px; /* keeps image from overflowing */
                 height: auto;
-                max-width: none;
                 display: block;
                 object-fit: cover;
+                margin: 0;
             }
         }
     }
