@@ -160,7 +160,7 @@ layout: null
       {% for publication in site.data.publications %}
       <div class="publication-block columns {% if publication.highlight %}publication-highlight{% endif %}">
 
-        <div class="column is-2">
+        <div class="column is-2 {% if publication.highlight %}is-3{% endif %}">
           <div class="publication-image">
             <img class="thumbnail"
                  alt="{{ publication.title }}" 
