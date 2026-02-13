@@ -50,6 +50,24 @@
     - zhenliang
   highlight: true
 
+- id: sewerch4
+  title: "Estimating methane emissions from global sewer networks"
+  venue: Nature Water, 2026
+  description: "Develop a simple equation to estimate CH4 emissions and extrapolate to a global scale of 1.18 - 1.95 Mt/year."
+  full_text: "https://doi.org/10.1038/s44221-025-00574-w"
+  publisher: springer
+  image: ch4.jpg
+  authors:
+    - keshab
+    - jiuling
+    - liutao
+    - jwillis
+    - yiwen
+    - zhiyu
+    - zhiguo
+  corr:
+    - zhiguo
+
 - id: comparison
   title: "Comparison of Real-time Control Methods for CSO Reduction with Two Evaluation Indices: Computing Load Rate and Double Baseline Normalized Distance"
   venue: Water Resources Management, 2022
